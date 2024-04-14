@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+header {
+  height: 100vh;
+  margin-top: -100px;
+  overflow: hidden;
+  background-image: url("../../assets/photos/hero.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 210px 40px;
+}
+
+.header-container {
+  height: 100%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container h1 {
+  font-size: 3rem;
+  font-family:;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.3rem;
+  width: max-content;
+  display: inline-block;
+  color: #fff;
+  background: var(--gradient);
+  padding: 3px 25px 3px 25px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  box-shadow: inset 10em 0 0 0 var(--color-cyan);
+}
+
+.header-cta {  
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+span {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.span1 {
+  font-size: 50px;
+  line-height: 1.1;
+  color: var(--color-cyan);
+}
+
+.span2 {
+  font-size: 30px;
+  color: #fff;
+  line-height: 1.1;
+}
+
+.span3 {
+  font-size: 35px;
+  color: #fff;
+  line-height: 1.1;
+}
+
+.span4 {
+  font-size: 70px;
+  line-height: 1.1;
+  color: var(--color-cyan);
+}
+
+.span5 {
+  font-size: 30px;
+  color: #fff;
+  line-height: 1.1;
+}
+
+.span6 {
+  font-size: 15px;
+  color: #fff;
+  line-height: 2;
+}
+/* TABLET MEDIA QUERY */
+
+@media screen and (max-width: 1024px) {
+  header {
+    background-size: cover;
+  }
+
+  .header-container h1 {
+    font-size: 1.8rem;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+  }
+}
+
+/* MOBILE MEDIA QUERY */
+
+@media screen and (max-width: 768px) {
+  .header-container h1 {
+    font-size: 2.3rem;
+  }
+
+  .btn {
+    font-size: 1.8rem;
+  }
+  header{
+    background-position: -350px 40px;
+  }
+}
