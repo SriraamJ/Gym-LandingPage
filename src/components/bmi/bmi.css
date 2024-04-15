@@ -79,7 +79,7 @@
 }
 
 .send-btn:hover {
-  box-shadow: inset 10em 0 0 0 var(--color-cyan);
+  box-shadow: inset 12em 0 0 0 var(--color-cyan);
 }
 
 .input-text {

@@ -12,7 +12,7 @@ const Footer = () => {
 
       <div className="row1">
         <div className="col1">
-          <h3 className='footer-title'><span class="underline">Matrix Fitness</span></h3>
+          <h3 className='footer-title'><span class="underline">Matrix Fitness Center</span></h3>
           <ul className='footer-text'>
             <li>1. Opp. to Jaycees School Bus Stop</li>
             <li>2. Kasipalayam Near ITI Opposite</li>
@@ -35,7 +35,7 @@ const Footer = () => {
         <div className="row2">
           <div className="col3">
             <img src={LOGO} alt="matrix" />
-            <h3 className='footer-matrix-title'>Matrix fitness</h3>
+            <h3 className='footer-matrix-title'>Matrix fitness Center</h3>
           </div>
         </div>
 

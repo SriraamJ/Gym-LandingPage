@@ -6,9 +6,9 @@ const Header = () => {
     <header>
       <div className="header-container">
         <div className="header-cta">
-          <h1>Get Fit. Stay Fit.</h1>
+          <h1 className="hero-tag">Get <span>Fit</span>. Stay <span>Fit</span>.</h1>
           <a href="#membership">
-            <div className="btn">Start now</div>
+            <div className="btn">START NOW</div>
           </a>
         </div>
       </div>
