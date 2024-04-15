@@ -54,7 +54,7 @@ const Footer = () => {
           <ul className='footer-text'>
             <a href="https://www.instagram.com"><li><img src={INSTAGRAM} alt="Instagram" />Instagram</li></a>
             <a href="https://www.youtube.com"><li><img src={YOUTUBE} alt="Youtube" />Youtube</li></a>
-            <a href="https://www.spotify.com"><li><img src={WHATSAPP} alt="Spotify" />Whatsapp</li></a>
+            <a href="https://www.whatsapp.com"><li><img src={WHATSAPP} alt="Spotify" />Whatsapp</li></a>
           </ul>
         </div>
       </div>
