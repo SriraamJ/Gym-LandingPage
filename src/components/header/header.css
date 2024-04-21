@@ -134,3 +134,9 @@ span {
     background-position: -350px 40px;
   }
 }
+@media screen and (max-width: 400px)
+{
+  header {
+    background-position: -410px 40px;
+  }
+}
