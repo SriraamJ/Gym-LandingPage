@@ -2,8 +2,7 @@
   height: 110vh;
   margin-top: -80px;
   overflow: hidden;
-  background-image: url("../../assets/photos/contact.jpg"),
-  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+  background-color: black;
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,7 +58,7 @@
 
 .contact-form {
   width: 600px;
-  height: 280px;
+  height: 300px;
   border-radius: 35px;
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -88,7 +87,7 @@
   -moz-text-fill-color: transparent;
 }
 .send-btn:hover {
-  box-shadow: inset 10em 0 0 0 var(--color-cyan);
+  box-shadow: inset 10em 0 0 0 var(--color-cyan) !important;
 }
 
 .input-text {
@@ -487,12 +486,12 @@ textarea {
 
   .contact-form-bg {
     width: 360px;
-    height: 580px;
+    height: 350px;
   }
 
   .contact-form {
     width: 347px;
-    height: 567px;
+    height: 320px;
   }
 
   input {

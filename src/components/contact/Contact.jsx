@@ -36,7 +36,7 @@ const Contact = () => {
       <h1 className="contact-title">Matrix <span>Fitness</span></h1>
       <div className="contact-container">
           <div className="contact-london">
-            <h2>Matrix Fitness</h2>
+            <h2>Address</h2>
             <ul>
               <li>
                 <img src={LOCATION_CYAN} alt="" />
@@ -70,7 +70,7 @@ const Contact = () => {
                   <input type="text" name="name" id="name" required />
                 </div>
 
-                <div className="email">
+                <div className="name">
                   <p className="input-text">Phone</p>
                   <input type="text" name="phone" id="phone" required />
                 </div>
@@ -78,7 +78,7 @@ const Contact = () => {
                 </div>
               </div>
               <br></br>
-              <br></br>
+
               <button className="send-btn" type="submit">Send</button>
             </div>
           </div>
